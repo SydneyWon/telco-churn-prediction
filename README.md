@@ -1,13 +1,13 @@
 # Telco Customer Churn Prediction
 
 
-🎯 Project Overview  
+## 🎯 Project Overview  
 This project focuses on developing, comparing, and optimizing Machine Learning classification models to proactively identify customers at high risk of churning in a competitive telecommunications environment.
 
 The core goal was to shift the modeling objective from maximizing simple accuracy to minimizing the costly business error of False Negatives (missed churners), thereby maximizing the potential Return on Investment (ROI) from targeted customer retention efforts.
 
 
-📈 Key Achievements & Insights
+## 📈 Key Achievements & Insights
 * Strategic Metric Focus: Adopted Recall (Sensitivity) and AUC-ROC as the primary evaluation metrics, acknowledging that the financial cost of a False Negative (losing a customer's lifetime value) is significantly higher than that of a False Positive (wasting a marketing budget).
   
 * Feature Engineering for Business Insight: Created new features derived from the data, such as:
@@ -19,7 +19,7 @@ The core goal was to shift the modeling objective from maximizing simple accurac
 * Actionable Strategy: Translated model outputs into immediate, high-impact business recommendations, focusing on contract conversion and enhancing service stickiness for high-risk customers.
 
 
-🛠️ Technology Stack & Libraries
+## 🛠️ Technology Stack & Libraries
 * Language: Python
 * Core Libraries:
   * pandas, numpy: Data Manipulation and Numerical Operations
@@ -28,13 +28,13 @@ The core goal was to shift the modeling objective from maximizing simple accurac
   * xgboost, lightgbm: High-Performance Gradient Boosting Models
 
 
-📊 Data Source
+## 📊 Data Source
 The project utilizes the well-known Telco Customer Churn Dataset.
 * Source: Kaggle: Telco Customer Churn
 * Key Challenge: The dataset features a significant class imbalance ($73.46\\%$ Non-Churn vs. $26.54\\%$ Churn). This was addressed through Stratified Sampling and Class Weighting during model tuning.
 
 
-⚙️ Methodology & Modeling
+## ⚙️ Methodology & Modeling
 1. Data Cleaning & Preprocessing:
 * Handled missing values in TotalCharges using verified business logic (imputing 0.0 for customers with 0 tenure).
 * Categorized features and built a robust ColumnTransformer for standardization and one-hot encoding.
