@@ -1,7 +1,7 @@
 # Telco Customer Churn Prediction
 
 
-🎯 Project Overview
+🎯 Project Overview  
 This project focuses on developing, comparing, and optimizing Machine Learning classification models to proactively identify customers at high risk of churning in a competitive telecommunications environment.
 
 The core goal was to shift the modeling objective from maximizing simple accuracy to minimizing the costly business error of False Negatives (missed churners), thereby maximizing the potential Return on Investment (ROI) from targeted customer retention efforts.
