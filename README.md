@@ -39,7 +39,9 @@ The project utilizes the well-known Telco Customer Churn Dataset.
 * Handled missing values in TotalCharges using verified business logic (imputing 0.0 for customers with 0 tenure).
 * Categorized features and built a robust ColumnTransformer for standardization and one-hot encoding.
 * Split data using StratifiedKFold to maintain class balance in all cross-validation folds.
+  
 2. Feature Engineering: Created the high-impact features Monthly_to_Total_Ratio and Has_No_Security to capture lifecycle risk and service stickiness.
+   
 3. Model Training & Optimization:
 * Trained and compared four distinct models: Logistic Regression, Random Forest, XGBoost, and LightGBM.
 * Utilized class_weight='balanced' and scale_pos_weight in tuning to prioritize Recall.
